@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.*;
 public class Exapmles {
  //   @Test   // this test will not be run
     public void test_get(){
-        baseURI="http://localhost:3000/"; 
+        baseURI="http://localhost:3000/";
         given().
                 param("name","Automation").
                 get("/user").
