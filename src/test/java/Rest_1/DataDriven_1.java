@@ -27,7 +27,7 @@ public class DataDriven_1 extends DataForTests {
 
 
 
- //   @Test(dataProvider ="Data for post"  )
+ //   @Test(dataProvider ="Data for post")
     public void  test_post(String firstName, String lastName,int subjectId){
 
         //npm install -g json-server
